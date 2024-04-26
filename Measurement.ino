@@ -128,11 +128,7 @@ void setup() {
 
 void loop() {
   float vin = 3.28;
-  // Old Value
-  // float A = 1.90004E-3;
-  // float B = 1.1449E-4;
-  // float C = 5.4607E-7;
-  // New Value
+  // Steinhart-Hart Coefficients for the thermistor
   float A = 2.1083E-3;
   float B = 7.9586E-5;
   float C = 6.7213E-7;
